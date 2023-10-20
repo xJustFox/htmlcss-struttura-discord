@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 /* Nav bar */
+
 .cont-header{
-    width: 1200px;
     display: flex;
+    width: 1200px;
     height: 70px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 
 .nav-bar{
@@ -20,16 +21,16 @@
 }
 
 .cont-header div:first-child{
-    width: 20%;
+    flex-grow: 1;
 }
 
 .cont-header div:nth-child(2){
-    width: 60%;
+    flex-grow: 5;
     text-align: center;
 }
 
 .cont-header div:last-child{
-    width: 20%;
+    flex-grow: 1;
     text-align: right;
 }
 
@@ -37,3 +38,71 @@
     background-color: aqua;
 }
 
+/* Cont Background */
+
+.cont-bg{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-box{
+    background-color: plum;
+    width: 75%;
+    height: 85%;
+    border: 1px dashed;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+/* Cont box-1 */
+
+.cont-box{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    width: 100%;
+    height: 85%;
+    border: 1px dashed;
+}
+
+.box-pink{
+    background-color: pink;
+    flex-basis: 70%;
+}
+
+.box-azure{
+    background-color: skyblue;
+    flex-basis: 100%;
+}
+
+.cont-box-gr{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-green{
+    background-color: green;
+    width: 100%;
+    height: 90%;
+    border: 1px dashed;
+}
+
+.bg-gray{
+    background-color: lightgrey;
+}
