@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav bar */
+.cont-header{
+    width: 1200px;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    background-color: orange;
+    padding: 10px;
+    border: 1px dashed;
+}
+
+.cont-header div:first-child{
+    width: 20%;
+}
+
+.cont-header div:nth-child(2){
+    width: 60%;
+    text-align: center;
+}
+
+.cont-header div:last-child{
+    width: 20%;
+    text-align: right;
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
