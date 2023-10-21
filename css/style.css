@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Nav bar */
+/* [Header]Nav bar */
 
 .cont-header{
     display: flex;
@@ -38,11 +38,11 @@
     background-color: aqua;
 }
 
-/* Cont Background */
+/* [Main] Cont Background */
 
 .cont-bg{
     width: 1200px;
-    height: 600px;
+    height: calc(100vh - 70px);
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@
 
 .cont-box{
     width: 1200px;
-    height: 600px;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@
 
 .cont-box-gr{
     width: 1200px;
-    height: 1000px;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -105,4 +105,58 @@
 
 .bg-gray{
     background-color: lightgrey;
+}
+
+/* [Footer] */
+
+.cont-footer{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1200px;
+    height: calc(100vh - 95px);
+    display: flex;
+}
+
+.box-footer{
+    background-color: palevioletred;
+    width: 30%;
+    height: 95%;
+    border: 1px dashed black;
+}
+
+.cont-box-footer{
+    display: flex;
+    width: 70%;
+}
+
+.col-footer{
+    background-color: blueviolet;
+    width: 100%;
+    height: 95%;
+    border: 1px dashed white;
+}
+.border-bottom{
+    border-bottom: 1px solid gray;
+}
+
+.end-footer{
+    background-color: aqua;
+    width: 1200px;
+    height: 70px;
+    margin: 25px auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo,.footer-button{
+    padding: 5px;
+    border: 1px dashed;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+.bg-black{
+    background-color: black;
 }
