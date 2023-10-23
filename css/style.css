@@ -6,10 +6,14 @@
 /* [Header]Nav bar */
 
 .cont-header{
-    display: flex;
-    width: 1200px;
-    height: 70px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.row-header{
+    width: 100%;
+    height: 70px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -29,21 +33,21 @@
     text-align: center;
 }
 
-.cont-header div:last-child{
+.row-header div:last-child{
     flex-grow: 1;
     text-align: right;
-}
-
-.bg-aqua{
-    background-color: aqua;
 }
 
 /* [Main] Cont Background */
 
 .cont-bg{
-    width: 1200px;
-    height: calc(100vh - 70px);
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.row-bg{
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,9 +67,13 @@
 /* Cont box-1 */
 
 .cont-box{
-    width: 1200px;
-    height: 100vh;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.row-box{
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,12 +96,17 @@
 }
 
 .cont-box-gr{
-    width: 1200px;
-    height: 100vh;
+    max-width: 1200px;
     margin: 0 auto;
+    
+}
+
+.row-box-gr{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .box-green{
@@ -110,10 +123,14 @@
 /* [Footer] */
 
 .cont-footer{
+    max-width: 1200px;
     padding-top: 10px;
     margin: 0 auto;
-    width: 1200px;
-    height: calc(100vh - 95px);
+}
+
+.row-footer{
+    width: 100%;
+    height: 400px;
     display: flex;
 }
 
@@ -125,8 +142,13 @@
 }
 
 .cont-box-footer{
-    display: flex;
     width: 70%;
+    height: 100%;
+}
+
+.row-box-footer{
+    height: 100%;
+    display: flex;
 }
 
 .col-footer{
@@ -140,10 +162,12 @@
 }
 
 .end-footer{
-    background-color: aqua;
-    width: 1200px;
-    height: 70px;
+    width: 100%;
     margin: 25px auto auto;
+}
+
+.row-end-footer{
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,4 +183,7 @@
 }
 .bg-black{
     background-color: black;
+}
+.bg-aqua{
+    background-color: aqua;
 }
